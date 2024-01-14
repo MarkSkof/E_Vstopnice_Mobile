@@ -22,7 +22,6 @@ import com.android.volley.toolbox.Volley;
 import org.json.JSONException;
 import org.json.JSONObject;
 import java.io.UnsupportedEncodingException;
-import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -55,7 +54,7 @@ public class AddEventActivity extends AppCompatActivity {
 
     }
 
-    public void addStudent(View view){
+    public void addEvent(View view){
         try {
             JSONObject jsonBody = new JSONObject();
             jsonBody.put("name", name.getText());

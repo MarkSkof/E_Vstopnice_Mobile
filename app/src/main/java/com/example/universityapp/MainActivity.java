@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
         osebe = (TextView) findViewById(R.id.osebe);
     }
 
-    public void prikaziEvente(View view) {
+    public void showEvents(View view) {
         if (view != null) {
             JsonArrayRequest request = new JsonArrayRequest(url, jsonArrayListener, errorListener)
             {
